@@ -44,13 +44,13 @@ header span {
         display: flex;
         align-items: center;  
         justify-content: space-between; 
-        gap: 30px;             
+        gap: 60px;             
     /* 📍 Свойствa flexbox для размещения блока с текстом и изображения в ряд, и центрирования их по вертикали */
 }
 
 .text-wrapper {
     margin-bottom: 40px;
-    max-width: 500px;
+    max-width: 425px;
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
 }
 
@@ -122,7 +122,7 @@ select:hover,
 .frameworks-list,
 .books-list {
     display: flex;
-    gap:140px ;
+    gap:16px ;
     justify-content: space-between;
     /* 📍 Свойства flexbox для отступов между элементами в списках */
 }
@@ -142,7 +142,7 @@ select:hover,
 
 .skills {
     display: flex;
-    align-items: center;
+    gap: 20px;
     /* 📍 Свойства flexbox для расположения элементов с классом .label */
 }
 
@@ -210,8 +210,8 @@ footer {
     background-color: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column-reverse;
+    align-self: start;
     /* 📍 Свойство для расположения ссылки горизонтально по центру */
 }
 
